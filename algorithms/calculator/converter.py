@@ -130,4 +130,3 @@ class ReversePolishNotationConverter:
 
 a = ReversePolishNotationConverter("13+7*(5*6)")
 a.convert()
-####check

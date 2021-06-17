@@ -41,9 +41,9 @@ class ReversePolishNotationCalculator:
                 rst = self.ops[res](operand1, operand2)
                 self.stack.push(rst)
             else:
-                self.stack.push(int(res))
+                self.stack.push(float(res))
 
-        return int(self.stack.top())
+        return self.stack.top()
 
 
 calc = ReversePolishNotationCalculator()
